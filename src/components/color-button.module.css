@@ -1,0 +1,28 @@
+.registerLogin {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  font-family: var(--font-dm-sans);
+  color: var(--primary-blue-500);
+  text-align: center;
+  display: inline-block;
+  min-width: 55px;
+}
+.colorbutton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs-5) var(--padding-lgi);
+  background-color: var(--color-primary);
+  width: 94px;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.colorbutton:hover {
+  background-color: var(--color-gainsboro);
+}

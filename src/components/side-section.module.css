@@ -1,0 +1,1291 @@
+*{
+  background: width 100%;
+}
+
+.india,
+.sideSectionChild {
+  position: relative;
+  flex-shrink: 0;
+}
+.sideSectionChild {
+  align-self: stretch;
+ 
+  background-color: var(--color-primary);
+  border-bottom: 1px solid var(--color-gray-800);
+  box-sizing: border-box;
+  display: none;
+}
+.india {
+  text-decoration: none;
+  height: 21px;
+  line-height: 34.82px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  min-width: 56px;
+}
+.locationItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-8) 0 0;
+  color: var(--color-darkslateblue-200);
+}
+.bihar,
+.weuiarrowFilledIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.weuiarrowFilledIcon {
+  height: 24px;
+  width: 15px;
+  overflow: hidden;
+}
+.bihar {
+  text-decoration: none;
+  height: 17px;
+  line-height: 34.82px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  min-width: 47px;
+}
+.stateItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--font-size-lg);
+}
+.weuiarrowFilledIcon1 {
+  width: 15px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.weuiarrowFilledWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.patna {
+  text-decoration: none;
+  height: 19px;
+  position: relative;
+  line-height: 34.82px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 46px;
+}
+.cityItem,
+.locationHierarchy,
+.locationItems {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cityItem {
+  flex-direction: column;
+  padding: var(--padding-9xs-5) 0 0;
+  font-size: var(--font-size-mini);
+}
+.locationHierarchy,
+.locationItems {
+  flex-direction: row;
+}
+.locationHierarchy {
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+}
+.mapView1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 35px;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  min-width: 96px;
+}
+.mapButtonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 25.14px;
+  background-color: var(--color-primary);
+  border: 0.8px solid var(--color-darkslateblue-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.mapMarker {
+  position: absolute;
+  top: 3.1px;
+  left: 4.7px;
+  border-radius: 50%;
+  background-color: var(--color-darkslateblue-200);
+  width: 20.4px;
+  height: 20.4px;
+  z-index: 1;
+}
+.mapButton {
+  align-self: stretch;
+  height: 27.5px;
+  position: relative;
+  border-radius: 25.14px;
+  background-color: var(--color-primary);
+  border: 0.8px solid var(--color-darkslateblue-200);
+  box-sizing: border-box;
+}
+.mapButtonContainer {
+  width: 73.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-7);
+  box-sizing: border-box;
+}
+.sortBy {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  line-height: 35px;
+  font-weight: 300;
+  color: inherit;
+  display: inline-block;
+  min-width: 64px;
+}
+.filterButtonChild {
+  height: 35px;
+  width: 141px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.popularity {
+  text-decoration: none;
+  position: relative;
+  line-height: 25px;
+  color: inherit;
+  display: inline-block;
+  min-width: 76px;
+  z-index: 1;
+}
+.weuiarrowFilledIcon2 {
+  width: 30.5px;
+  height: 15.2px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.filterButton,
+.weuiarrowFilledContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-6) 0 0;
+}
+.filterButton {
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-7xs) var(--padding-10xs)
+    var(--padding-xs);
+  gap: var(--gap-mini-4);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.mapView,
+.navigationPanel {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.mapView {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.navigationPanel {
+  align-self: stretch;
+  background-color: var(--color-primary);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-sm-5) var(--padding-5xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.cardBackgroundIcon {
+  height: 267px;
+  width: 279px;
+  position: relative;
+  border-radius: 8.02px;
+  object-fit: cover;
+  min-height: 267px;
+  z-index: 1;
+}
+.imagePlaceholderIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xs-7);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.collectionCardImage {
+  height: 265.4px;
+  width: 147.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs-1);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  z-index: 1;
+}
+.superCollectionAvenue {
+  position: relative;
+  line-height: 30px;
+  z-index: 2;
+}
+.gandhiMaidanPatna {
+  margin-right: -3.8px;
+  width: 148.8px;
+  height: 16.2px;
+  position: relative;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.specificLocation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.typcnlocationIcon {
+  height: 20.4px;
+  width: 20.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.specificLocationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.ratingCardChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs-7);
+  background-color: var(--color-darkslateblue-100);
+ 
+  height: 100%;
+  display: none;
+}
+.ratingValue {
+  position: absolute;
+  top: calc(50% - 6.4px);
+  left: 2.6px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  width: 18px;
+  height: 30px;
+  min-width: 18px;
+}
+.materialSymbolsstarIcon {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 24.7px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+  z-index: 1;
+}
+.ratingCard {
+  height: 19.6px;
+  width: 45.9px;
+  position: relative;
+  border-radius: var(--br-11xs-7);
+  background-color: var(--color-darkslateblue-100);
+  z-index: 1;
+  font-size: var(--font-size-smi-8);
+}
+.good,
+.ratings {
+  position: relative;
+  line-height: 17px;
+  color: var(--color-gray-200);
+  display: inline-block;
+  min-width: 63.8px;
+  z-index: 1;
+}
+.good {
+  line-height: 18.7px;
+  color: var(--color-black);
+  min-width: 35.7px;
+}
+.frameParent,
+.ratingAmenities {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratingAmenities {
+  flex-direction: row;
+  gap: var(--gap-8xs-7);
+  color: var(--color-primary);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-4xs-9);
+}
+.materialSymbolswifiIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.wifiDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+}
+.freeWifi {
+  height: 15px;
+  position: relative;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 61px;
+  z-index: 1;
+}
+.wifiLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.iontv,
+.tv {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.iontv {
+  margin: 0;
+  height: 29px;
+  width: 29px;
+  overflow: hidden;
+  min-height: 29px;
+}
+.tv {
+  align-self: stretch;
+  height: 15px;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+}
+.tvLabel {
+  width: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.pinAddress,
+.wifiDetailsParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.wifiDetailsParent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-2xs-3);
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-400);
+}
+.pinAddress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-4xl-1);
+}
+.fluentMdl2snowShowerDayIcon,
+.km {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.km {
+  height: 16.2px;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  min-width: 40.8px;
+}
+.fluentMdl2snowShowerDayIcon {
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+.acDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-mini);
+}
+.ac,
+.distanceDetails {
+  position: absolute;
+  display: flex;
+}
+.distanceDetails {
+  top: 3.8px;
+  left: 165px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-35xl);
+}
+.ac {
+  top: 82px;
+  left: 222px;
+  font-size: var(--font-size-mini);
+  line-height: 29.61px;
+  color: var(--color-gray-400);
+  align-items: center;
+  width: 29px;
+  height: 15px;
+  z-index: 1;
+}
+.pinAddressParent {
+  height: 104px;
+  flex: 1;
+  position: relative;
+  min-width: 163px;
+}
+.fluentMdl2calculatorAdditioIcon {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fluentMdl2calculatorAdditioWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.more {
+  flex: 1;
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.moreDetails,
+.moreOptions {
+  display: flex;
+  align-items: flex-start;
+}
+.moreOptions {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.moreDetails {
+  width: 81px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-400);
+}
+.addressDetails,
+.locationInfo {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.addressDetails {
+  width: 362px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+  margin-top: -4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslateblue-100);
+}
+.locationInfo {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rs10000 {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 82px;
+}
+.rs10000Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.viewDetailsChild {
+  height: 41px;
+  width: 139px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.viewDetails1 {
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 30px;
+  font-family: var(--font-poppins);
+  color: var(--color-gray-500);
+  text-align: left;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 1;
+}
+.viewDetails {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-10xs) var(--padding-lg) var(--padding-9xs);
+  background-color: transparent;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.viewDetails2:hover,
+.viewDetails:hover,
+.viewDetailsItem {
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.viewDetailsItem {
+  height: 41px;
+  width: 139px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslateblue-200);
+  border: 1px solid var(--color-black);
+  display: none;
+}
+.bookNow {
+  position: relative;
+  font-size: var(--font-size-mid);
+  line-height: 30px;
+  font-family: var(--font-poppins);
+  color: var(--color-primary);
+  text-align: left;
+  display: inline-block;
+  min-width: 83px;
+  z-index: 1;
+}
+.actionButtons,
+.viewDetails2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewDetails2 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: var(--padding-10xs) var(--padding-9xl) var(--padding-9xs);
+  background-color: var(--color-darkslateblue-200);
+  border-radius: var(--br-9xs);
+  white-space: nowrap;
+}
+.viewDetails2:hover {
+  background-color: var(--color-steelblue);
+}
+.actionButtons {
+  gap: var(--gap-14xl);
+}
+.cardDetails,
+.frameGroup,
+.pricing {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.cardDetails,
+.pricing {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.pricing {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-lgi);
+}
+.cardDetails {
+  flex-direction: column;
+  gap: var(--gap-68xl);
+}
+.cardContent,
+.collectionCard {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cardContent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  min-width: 418px;
+}
+.collectionCard {
+  width: 1111px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-2xs-6);
+}
+.card2Child {
+  align-self: stretch;
+  width: 1122px;
+  position: relative;
+  border-radius: var(--br-4xs-5);
+  background-color: var(--color-primary);
+  display: none;
+  max-width: 100%;
+}
+.imageContainerIcon,
+.listingBackgroundIcon {
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.listingBackgroundIcon {
+  height: 267px;
+  width: 279px;
+  border-radius: 8.02px;
+  min-height: 267px;
+}
+.imageContainerIcon {
+  height: 85.1px;
+  width: 147.9px;
+  border-radius: var(--br-11xs-7);
+  flex-shrink: 0;
+}
+.superCollectionAvenue1 {
+  position: relative;
+  line-height: 30px;
+  z-index: 1;
+}
+.km1,
+.typcnlocationIcon1 {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.typcnlocationIcon1 {
+  height: 20.4px;
+  width: 20.4px;
+  overflow: hidden;
+}
+.km1 {
+  margin-left: -0.4px;
+  height: 16.2px;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  min-width: 40.8px;
+}
+.combinedLocationParent,
+.titleAddress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.combinedLocationParent {
+  gap: var(--gap-4xs-9);
+  margin-top: -4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslateblue-100);
+}
+.titleAddress {
+  flex-shrink: 0;
+}
+.contentArea,
+.primaryInfo {
+  display: flex;
+  max-width: 100%;
+}
+.contentArea {
+  height: 74.9px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-2);
+  box-sizing: border-box;
+}
+.primaryInfo {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-1);
+}
+.separatorBarIcon {
+  height: 85.1px;
+  width: 147.9px;
+  position: relative;
+  border-radius: var(--br-11xs-7);
+  object-fit: cover;
+  z-index: 1;
+}
+.amenityLabels,
+.wifiRepresentation {
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-9) 0 0;
+  box-sizing: border-box;
+}
+.amenityLabels {
+  height: 15px;
+  padding: var(--padding-sm) 0 0;
+}
+.tvRepresentation {
+  margin: 0;
+  height: 29px;
+  width: 29px;
+}
+.amenityLabels1 {
+  height: 15px;
+  width: 25px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.acWrapper,
+.amenityLabels1,
+.primaryAmenities {
+  display: flex;
+  align-items: flex-start;
+}
+.primaryAmenities {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.acWrapper {
+  height: 15px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.fluentMdl2snowShowerDayParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.additionalFeatures {
+  height: 30px;
+  width: 71px;
+  flex-direction: column;
+  padding: var(--padding-base-9) 0 0;
+  box-sizing: border-box;
+}
+.additionalFeatures,
+.moreIconContainer,
+.moreIconContainerParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moreIconContainer {
+  height: 10px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.moreIconContainerParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-10xs);
+}
+.amenityHighlights,
+.expansionOptions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.expansionOptions {
+  height: 15px;
+  width: 81px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  color: var(--color-gray-400);
+}
+.amenityHighlights {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 0;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+}
+.rs100001 {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 82px;
+  flex-shrink: 0;
+}
+.priceTag {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi-4);
+  box-sizing: border-box;
+}
+.priceDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs-1);
+}
+.viewDetails4 {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 1;
+}
+.viewDetails3 {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-lg) var(--padding-9xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.bookNow1 {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 83px;
+  z-index: 1;
+}
+.buttonContainer,
+.viewDetails5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewDetails5 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslateblue-200);
+  border: 1px solid var(--color-black);
+  padding: var(--padding-10xs) var(--padding-9xl) var(--padding-9xs);
+  white-space: nowrap;
+  z-index: 1;
+  color: var(--color-primary);
+}
+.buttonContainer {
+  gap: var(--gap-14xl);
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-500);
+}
+.priceBooking {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lgi);
+}
+.listingDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 520px;
+  max-width: 100%;
+}
+.card2,
+.frameWrapper {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.card2 {
+  align-self: stretch;
+  border-radius: var(--br-4xs-5);
+  background-color: var(--color-primary);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl) 0 0;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.frameWrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-2);
+}
+.freeWifiWrapper,
+.materialSymbolswifiWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-9) 0 0;
+}
+.freeWifiWrapper {
+  padding: var(--padding-2xl-9) 0 0;
+}
+.iontv1 {
+  margin: 0;
+  width: 29px;
+  height: 29px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.iontvWrapper {
+  justify-content: flex-start;
+  padding: var(--padding-sm-9) 0 0;
+}
+.acContainer,
+.iontvWrapper,
+.tvWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tvWrapper {
+  width: 25px;
+  justify-content: flex-start;
+  padding: var(--padding-3xl-9) 0 0;
+  box-sizing: border-box;
+}
+.acContainer {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+}
+.frameWrapper1 {
+  width: 103px;
+  flex-direction: column;
+  padding: var(--padding-base-9) var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+}
+.frameParent2,
+.frameWrapper1,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper2 {
+  width: 82px;
+  flex-direction: column;
+  padding: var(--padding-4xl-9) 0 0;
+  box-sizing: border-box;
+  color: var(--color-gray-400);
+}
+.frameParent2 {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+}
+.rs100002 {
+  align-self: stretch;
+  position: relative;
+  line-height: 29.61px;
+  font-weight: 300;
+  flex-shrink: 0;
+}
+.rs10000Container {
+  width: 82px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi-4);
+  box-sizing: border-box;
+}
+.viewDetails7 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.viewDetails6 {
+  height: 41px;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  padding: var(--padding-8xs) var(--padding-lg) var(--padding-7xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.viewDetails6,
+.viewDetails8,
+.viewDetailsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.viewDetails8 {
+  height: 41px;
+  flex: 0.802;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslateblue-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  padding: var(--padding-8xs) var(--padding-9xl) var(--padding-7xs);
+  white-space: nowrap;
+  z-index: 1;
+  color: var(--color-primary);
+}
+.viewDetailsParent {
+  width: 311px;
+  gap: var(--gap-14xl);
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-500);
+}
+.card5,
+.cardContainer,
+.collectionCards {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.card5 {
+  flex: 1;
+  border-radius: var(--br-4xs-5);
+  background-color: var(--color-primary);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.cardContainer,
+.collectionCards {
+  align-items: flex-start;
+}
+.cardContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.collectionCards {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6xl-2);
+  flex-shrink: 0;
+}
+.collectionList,
+.sideSection {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: flex;
+  max-width: 100%;
+}
+.collectionList {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-7xs) 0 var(--padding-smi);
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.sideSection {
+  height: 1412px;
+  width: 1143px;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-gray-800);
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-1331xl);
+  gap: var(--gap-25xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .sideSection {
+    padding-bottom: var(--padding-551xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .listingBackgroundIcon {
+    flex: 1;
+  }
+  .card2,
+  .card5 {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .navigationPanel {
+    flex-wrap: wrap;
+  }
+  .cardDetails {
+    gap: var(--gap-24xl);
+  }
+  .cardContent {
+    min-width: 100%;
+  }
+  .amenityHighlights,
+  .priceBooking,
+  .primaryInfo {
+    flex-wrap: wrap;
+  }
+  .listingDetails {
+    min-width: 100%;
+  }
+  .frameParent2 {
+    flex-wrap: wrap;
+  }
+  .sideSection {
+    height: auto;
+    gap: var(--gap-3xl);
+    padding-bottom: var(--padding-351xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .india,
+  .mapView1 {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .mapView1 {
+    font-size: var(--font-size-base);
+  }
+  .addressDetails,
+  .mapView {
+    flex-wrap: wrap;
+  }
+  .actionButtons {
+    gap: var(--gap-base);
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .cardDetails {
+    gap: var(--gap-3xl);
+  }
+  .primaryAmenities {
+    flex-wrap: wrap;
+  }
+  .buttonContainer,
+  .viewDetailsParent {
+    gap: var(--gap-base);
+  }
+}

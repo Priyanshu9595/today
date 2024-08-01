@@ -1,0 +1,499 @@
+.card3Child {
+  align-self: stretch;
+
+  position: relative;
+  border-radius: var(--br-4xs-5);
+  background-color: var(--color-primary);
+  display: none;
+ 
+}
+.cardBackgroundIcon,
+.imagePlaceholderIcon {
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.cardBackgroundIcon {
+  height: 267px;
+  width: 279px;
+  border-radius: 8.02px;
+  min-height: 267px;
+}
+.imagePlaceholderIcon {
+  height: 85.1px;
+  width: 147.9px;
+  border-radius: var(--br-11xs-7);
+  flex-shrink: 0;
+}
+.gandhiMaidanPatna,
+.superCollectionAvenue {
+  position: relative;
+  line-height: 30px;
+  z-index: 1;
+}
+.gandhiMaidanPatna {
+  margin-right: -3.8px;
+  width: 148.8px;
+  height: 16.2px;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.km,
+.typcnlocationIcon {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.typcnlocationIcon {
+  height: 20.4px;
+  width: 20.4px;
+  overflow: hidden;
+}
+.km {
+  margin-left: -0.4px;
+  height: 16.2px;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  min-width: 40.8px;
+}
+.locationDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.ratingCardChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs-7);
+  background-color: var(--color-darkslateblue-100);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.emptyStar {
+  position: absolute;
+  top: calc(50% - 6.4px);
+  left: 2.6px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  width: 18px;
+  height: 30px;
+  min-width: 18px;
+}
+.materialSymbolsstarIcon {
+  position: absolute;
+  top: calc(50% - 9px);
+  left: 24.7px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+  z-index: 1;
+}
+.ratingCard {
+  height: 19.6px;
+  width: 45.9px;
+  position: relative;
+  border-radius: var(--br-11xs-7);
+  background-color: var(--color-darkslateblue-100);
+  z-index: 1;
+  font-size: var(--font-size-smi-8);
+}
+.good,
+.ratings {
+  position: relative;
+  line-height: 17px;
+  color: var(--color-gray-200);
+  display: inline-block;
+  min-width: 63.8px;
+  z-index: 1;
+}
+.good {
+  line-height: 18.7px;
+  color: var(--color-black);
+  min-width: 35.7px;
+}
+.ratingCardParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-7);
+  color: var(--color-primary);
+}
+.locationContainer {
+  justify-content: flex-start;
+  gap: var(--gap-4xs-9);
+  margin-top: -4px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslateblue-100);
+}
+.locationContainer,
+.titleContainer,
+.titleContainerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.titleContainer {
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.titleContainerWrapper {
+  height: 74.9px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs-2);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cardTop {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-1);
+  max-width: 100%;
+}
+.amenityIconBackground {
+  height: 85.1px;
+  width: 147.9px;
+  position: relative;
+  border-radius: var(--br-11xs-7);
+  object-fit: cover;
+  z-index: 1;
+}
+.materialSymbolswifiIcon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.amenityIconContainer {
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-9) 0 0;
+  box-sizing: border-box;
+}
+.freeWifi {
+  height: 15px;
+  position: relative;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 61px;
+  z-index: 1;
+}
+.amenityLabelContainer {
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.tVIconContainer {
+  margin: 0;
+  height: 29px;
+  width: 29px;
+}
+.tv {
+  align-self: stretch;
+  height: 15px;
+  position: relative;
+  line-height: 29.61px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.amenityItems,
+.tVLabelContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tVLabelContainer {
+  height: 15px;
+  width: 25px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.amenityItems {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.fluentMdl2snowShowerDayIcon {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.aCLabelContainer {
+  height: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.aCIconContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.aCIconContainerWrapper {
+  height: 30px;
+  width: 71px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-9) 0 0;
+  box-sizing: border-box;
+}
+.fluentMdl2calculatorAdditioIcon {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.moreIconContainer {
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.more {
+  flex: 1;
+  position: relative;
+  line-height: 15px;
+  z-index: 1;
+}
+.cardAmenities,
+.moreItems,
+.moreItemsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.moreItems {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-10xs);
+}
+.cardAmenities,
+.moreItemsWrapper {
+  box-sizing: border-box;
+}
+.moreItemsWrapper {
+  height: 15px;
+  width: 81px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+}
+.cardAmenities {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+}
+.rs10000 {
+  position: relative;
+  line-height: 30px;
+  font-weight: 300;
+  display: inline-block;
+  min-width: 82px;
+  flex-shrink: 0;
+}
+.priceLabelContainer {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi-4);
+  box-sizing: border-box;
+}
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs-1);
+}
+.viewDetailsChild {
+  height: 41px;
+  width: 139px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.viewDetails1 {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 1;
+}
+.viewDetails,
+.viewDetailsItem {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-black);
+}
+.viewDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-lg) var(--padding-9xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.viewDetailsItem {
+  height: 41px;
+  width: 139px;
+  position: relative;
+  background-color: var(--color-darkslateblue-200);
+  box-sizing: border-box;
+  display: none;
+}
+.bookNow {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 83px;
+  z-index: 1;
+}
+.viewDetails2 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkslateblue-200);
+  border: 1px solid var(--color-black);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-9xl) var(--padding-9xs);
+  white-space: nowrap;
+  z-index: 1;
+  color: var(--color-primary);
+}
+.buttonContainer,
+.cardFooter,
+.viewDetails2 {
+  display: flex;
+  flex-direction: row;
+}
+.buttonContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  font-size: var(--font-size-mid);
+  color: var(--color-gray-500);
+}
+.cardFooter {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lgi);
+}
+.card3,
+.cardContainer,
+.cardContent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.cardContent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 520px;
+}
+.card3,
+.cardContainer {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.card3 {
+  flex: 1;
+  border-radius: var(--br-4xs-5);
+  background-color: var(--color-primary);
+  align-items: flex-end;
+  padding: 0 var(--padding-12xl) 0 0;
+  gap: var(--gap-xs);
+  z-index: 1;
+}
+.cardContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .cardBackgroundIcon {
+    flex: 1;
+  }
+  .card3 {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .cardAmenities,
+  .cardFooter,
+  .cardTop {
+    flex-wrap: wrap;
+  }
+  .cardContent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .amenityItems {
+    flex-wrap: wrap;
+  }
+  .buttonContainer {
+    gap: var(--gap-base);
+  }
+}

@@ -1,0 +1,38 @@
+.coloricon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+.enterYourEmail {
+  position: relative;
+  display: inline-block;
+  min-width: 120px;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.colornewsletter {
+  width: 457px;
+  border-radius: var(--br-xs);
+  background-color: var(--washed-blue-washed-blue-700);
+  overflow-x: auto;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-7xs) var(--padding-7xs)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-primary);
+  font-family: var(--font-dm-sans);
+}

@@ -1,0 +1,194 @@
+.logoIcon {
+  height: 44px;
+  width: 44px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.zenden {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 99px;
+  white-space: nowrap;
+}
+.logoParent,
+.zendenWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.zendenWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.logoParent {
+  flex-direction: row;
+}
+.services {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 61px;
+}
+.servicesLink {
+  flex: 0.7683;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.features {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  color: inherit;
+}
+.featuresLink {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+}
+.aboutUs {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 65px;
+  white-space: nowrap;
+}
+.navigationLinks,
+.primaryNavigation {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.navigationLinks {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-11xs-7);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-primary);
+  font-family: var(--font-poppins);
+}
+.primaryNavigation {
+  width: 246px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.materialSymbolsloginIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.button {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.46px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 46px;
+  white-space: nowrap;
+}
+.buttoncontained {
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  padding: var(--padding-7xs) var(--padding-2xl);
+  background-color: var(--color-primary);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.buttoncontained:hover {
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+}
+.mdiuserIcon,
+.quillhamburgerIcon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mdiuserIcon {
+  height: 26px;
+  width: 28px;
+  min-height: 26px;
+}
+.quillhamburgerIcon {
+  width: 24px;
+  height: 24px;
+}
+.authButtons,
+.buttoncontained1,
+.navigation,
+.userDropdown {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.userDropdown {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.authButtons,
+.buttoncontained1,
+.navigation {
+  flex-direction: row;
+}
+.buttoncontained1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  padding: var(--padding-7xs) var(--padding-2xl);
+  gap: var(--gap-3xs);
+}
+.authButtons,
+.navigation {
+  gap: var(--gap-xl);
+}
+.navigation {
+  align-self: stretch;
+  box-shadow: 0-1px 1px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 0 0 var(--br-8xs) var(--br-8xs);
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-2xs) var(--padding-smi)
+    var(--padding-21xl);
+  flex-shrink: 0;
+  z-index: 5;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-primary);
+  font-family: var(--font-helvetica-world);
+}
+@media screen and (max-width: 750px) {
+  .primaryNavigation {
+    display: none;
+  }
+}
